@@ -19,7 +19,7 @@ for i in range(0, 3):
     for k in range(0, 3):
         btnList[num].place(x = xPos, y = yPos)
         num += 1
-        xPos += 70
+        xPos += 70 #버튼 하나 크기가 70
     xPos = 0
     yPos += 70
 
