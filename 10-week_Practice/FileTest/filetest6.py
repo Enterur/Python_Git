@@ -5,7 +5,7 @@ fname, inList, inStr = "", [], ""
 
 fname = input("파일명을 입력하세요: ")
 
-if os.path.exists(fname):
+if os.path.exists(fname): # os 모듈에 주어진 경로가 존재하는 지 파악
     inFp = open(fname, "r")
 
     inList = inFp.readlines()

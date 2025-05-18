@@ -24,9 +24,9 @@ while True:
 
     for i in range(0, len(inStr)):
         ch = inStr[i]
-        chNum = ord(ch)
+        chNum = ord(ch) # ord 문자를 유니코드 정수로 반환
         chNum += secu
-        ch2 = chr(chNum)
+        ch2 = chr(chNum) # ord 정수를 유니코드 문자로 반환
         outStr += ch2
 
     outFp.write(outStr)

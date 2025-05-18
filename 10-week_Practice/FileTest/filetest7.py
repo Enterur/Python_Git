@@ -5,9 +5,9 @@ outFp = open("C:\\Users\\kimmi\\OneDrive\\바탕 화면\\Python_Git\\10-week_Pra
 
 while True:
     outStr = input("내용 입력: ")
-    if outStr != "":
+    if outStr != "": # 내용이 비어있지않으면 입력내용을 4행이 파일에 작성
         outFp.writelines(outStr + "\n")
-    else:
+    else: # 비어있으면 10행가서 무한루프 종료
         break
 
 outFp.close()
