@@ -3,9 +3,9 @@ from tkinter import *
 window = Tk()
 
 def myfunc():
-    if var.get == 1:
+    if var.get() == 1:
         label1.configure(text = "Python")
-    elif var.get == 2:
+    elif var.get() == 2:
         label1.configure(text = "C++")
     else:
         label1.configure(text = "Java")
