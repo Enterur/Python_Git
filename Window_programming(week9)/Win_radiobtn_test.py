@@ -2,6 +2,7 @@ from tkinter import *
 
 window = Tk()
 
+# var.get이면 결과가 False라 else로 넘어가 선택 결과가 Java로 출력됨
 def myfunc():
     if var.get() == 1:
         label1.configure(text = "Python")
